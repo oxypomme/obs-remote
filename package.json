@@ -10,11 +10,13 @@
   "dependencies": {
     "@mdi/font": "5.9.55",
     "core-js": "^3.8.3",
+    "obs-websocket-js": "^5.0.0",
+    "pinia": "^2.0.16",
     "register-service-worker": "^1.7.2",
     "roboto-fontface": "*",
     "vue": "^3.2.13",
-    "vuetify": "^3.0.0-beta.0",
-    "vuex": "^4.0.0",
+    "vue-router": "4",
+    "vuetify": "^3.0.0",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
@@ -35,7 +37,7 @@
     "prettier": "^2.4.1",
     "sass": "^1.38.0",
     "sass-loader": "^10.0.0",
-    "typescript": "~4.5.5",
+    "typescript": "~4.7.3",
     "vue-cli-plugin-vuetify": "~2.4.8",
     "vuetify-loader": "^2.0.0-alpha.0"
   }

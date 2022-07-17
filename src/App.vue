@@ -1,26 +1,9 @@
 <template>
-  <v-app>
+  <v-app theme="dark">
     <v-main>
-      <HelloWorld />
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default defineComponent({
-  name: "App",
-
-  components: {
-    HelloWorld,
-  },
-
-  data() {
-    return {
-      //
-    };
-  },
-});
-</script>
+<script lang="ts" setup></script>
